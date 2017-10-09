@@ -8,7 +8,7 @@ Authors@R: person("Etienne", "Low-Decarie", email = "elowde@essex.ac.uk",
 Depends: R (>= 3.1.0)
 Description: Package for fitting temperature response models to rate measurements taken at different temperatures.
 License: GPL-3
-URL: http://etiennelowdecarie.org
+URL: https://github.com/low-decarie/temperatureresponse
 RoxygenNote: 6.0.1
 LazyData: true
 Imports:
