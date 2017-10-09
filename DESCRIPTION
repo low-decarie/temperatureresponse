@@ -1,0 +1,24 @@
+Package: temperatureresponse
+Version: 0.1
+Date: September 23, 2016
+Title: Temperature response
+Author: Etienne Low-Decarie
+Authors@R: person("Etienne", "Low-Decarie", email = "elowde@essex.ac.uk",
+  role = c("aut", "cre"))
+Depends: R (>= 3.1.0)
+Description: Package for fitting temperature response models to rate measurements taken at different temperatures.
+License: GPL-3
+URL: http://etiennelowdecarie.org
+RoxygenNote: 6.0.1
+LazyData: true
+Imports:
+    graphics,
+    stats,
+    nlme,
+    broom,
+    dplyr,
+    rootSolve,
+    tidyr,
+    minpack.lm,
+    AICcmodavg,
+    numDeriv
