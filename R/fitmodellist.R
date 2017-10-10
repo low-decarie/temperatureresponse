@@ -10,7 +10,7 @@
 #' @return a data frame of, depending on augment argument, if FALSE, parameters, if TRUE, data with predicted values
 #' @export
 #'
-#'
+#' @examples output <- with(Emiliania_huxleyi, fitmodellist(temp=temp, rate=rate))
 
 fitmodellist <- function(temp,rate, augment=F,return_fit=F, models=paste0("equ",4:15)){
 

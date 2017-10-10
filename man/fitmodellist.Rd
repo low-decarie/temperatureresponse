@@ -24,3 +24,6 @@ a data frame of, depending on augment argument, if FALSE, parameters, if TRUE, d
 \description{
 Fits list of models (all models in package by default)
 }
+\examples{
+output <- with(Emiliania_huxleyi, fitmodellist(temp=temp, rate=rate))
+}
