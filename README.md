@@ -1,3 +1,5 @@
+![hex sticker](baseplot.png)
+
 # temperatureresponse
 
 [![CRAN_Status_Badge](https://www.r-pkg.org/badges/version/temperatureresponse)](https://cran.r-project.org/package=temperatureresponse)
