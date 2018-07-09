@@ -1,6 +1,6 @@
 # temperatureresponse
 
-[![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/sjPlot)](https://cran.r-project.org/package=temperatureresponse)
+[![CRAN_Status_Badge](https://www.r-pkg.org/badges/version/temperatureresponse)](https://cran.r-project.org/package=temperatureresponse)
 
 R package for fitting a suite equations for the unimodal response to temperature
 
