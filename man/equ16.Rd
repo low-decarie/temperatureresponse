@@ -19,5 +19,8 @@ equ16(temp, rate, augment = F, return_fit = F)
 a data frame of, depending on augment argument, if FALSE, parameters, if TRUE, data with predicted values
 }
 \description{
-Equation from "A Key Marine Diazotroph in a Changing Ocean: The Interacting Effects of Temperature, CO2 and Light on the Growth of Trichodesmium erythraeum IMS101"
+Equation from "A Key Marine Diazotroph in a Changing Ocean: The Interacting Effects of Temperature, CO2 and Light on the Growth of Trichodesmium erythraeum IMS101".  Challenging to fit to many datasets.  Does not fit to example dataset.
+}
+\examples{
+output <- with(Emiliania_huxleyi, equ16(temp=temp, rate=rate))
 }

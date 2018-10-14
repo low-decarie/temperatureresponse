@@ -21,3 +21,7 @@ a data frame of, depending on augment argument, if FALSE, parameters, if TRUE, d
 \description{
 New equation (based on sine)
 }
+\examples{
+output <- with(Emiliania_huxleyi, equ15(temp=temp, rate=rate))
+
+}

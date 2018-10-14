@@ -94,7 +94,7 @@ output <- broom::tidy(fit)
 output <- dplyr::bind_rows(output, additional_terms)
 })
 
-if(class(try_test)=="try-error"|class(try_test_2)=="try-error"){
+if(any(class(try_test)=="try-error",class(try_test_2)=="try-error")){
   output <-data.frame(term=NA,
                       estimate=NA,
                       std.error=NA,

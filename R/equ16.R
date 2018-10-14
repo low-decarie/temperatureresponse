@@ -1,6 +1,6 @@
 #' Equation 16
 #'
-#' @description Equation from "A Key Marine Diazotroph in a Changing Ocean: The Interacting Effects of Temperature, CO2 and Light on the Growth of Trichodesmium erythraeum IMS101"
+#' @description Equation from "A Key Marine Diazotroph in a Changing Ocean: The Interacting Effects of Temperature, CO2 and Light on the Growth of Trichodesmium erythraeum IMS101".  Challenging to fit to many datasets.  Does not fit to example dataset.
 #'
 #' @param temp temperature (in Celsius)
 #' @param rate rate measurement
@@ -10,7 +10,7 @@
 #' @return a data frame of, depending on augment argument, if FALSE, parameters, if TRUE, data with predicted values
 #' @export
 #'
-#'
+#' @examples output <- with(Emiliania_huxleyi, equ16(temp=temp, rate=rate))
 
 
 equ16 <- function(temp,rate, augment = F, return_fit=F){

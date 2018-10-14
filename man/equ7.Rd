@@ -21,3 +21,6 @@ a data frame of, depending on augment argument, if FALSE, parameters, if TRUE, d
 \description{
 Equation 7 from Montagnes et al (2008) citing Schoolfield et al. (1981)
 }
+\examples{
+output <- with(Emiliania_huxleyi, equ7(temp=temp, rate=rate))
+}

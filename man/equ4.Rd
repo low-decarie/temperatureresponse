@@ -21,3 +21,6 @@ a data frame of, depending on augment argument, if FALSE, parameters, if TRUE, d
 \description{
 Equation 4 is model H in  Li & Dickie (1987) citing Hinshelwood (1947)
 }
+\examples{
+output <- with(Emiliania_huxleyi, equ4(temp=temp, rate=rate))
+}

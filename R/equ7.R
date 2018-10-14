@@ -10,7 +10,7 @@
 #' @return a data frame of, depending on augment argument, if FALSE, parameters, if TRUE, data with predicted values
 #' @export
 #'
-#'
+#' @examples output <- with(Emiliania_huxleyi, equ7(temp=temp, rate=rate))
 equ7 <- function(temp,rate, augment=F, return_fit=F){
   #Fit the function
   try_test <- try({

@@ -21,3 +21,6 @@ a data frame of, depending on augment argument, if FALSE, parameters, if TRUE, d
 \description{
 Equation 5 is model J from Li & Dickie (1987) citing Johnson et al. (1942)  Does not currently work
 }
+\examples{
+output <- with(Emiliania_huxleyi, equ5(temp=temp, rate=rate))
+}

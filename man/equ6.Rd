@@ -21,3 +21,7 @@ a data frame of, depending on augment argument, if FALSE, parameters, if TRUE, d
 \description{
 Equation 6
 }
+\examples{
+output <- with(Emiliania_huxleyi, equ6(temp=temp, rate=rate))
+
+}

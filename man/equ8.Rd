@@ -23,3 +23,6 @@ depends on augment: if false, fitting parameters or fitted data
 \description{
 Equation in Li & Dickie (1987) citing Stoermer & Ladewski (1976): a*exp(-0.5*((temp-tref)/b)^2)
 }
+\examples{
+output <- with(Emiliania_huxleyi, equ8(temp=temp, rate=rate))
+}

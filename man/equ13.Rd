@@ -21,3 +21,6 @@ depends on augment: if false, fitting parameters or fitted data
 \description{
 Equation in Ratkowsky et al. (1983)
 }
+\examples{
+output <- with(Emiliania_huxleyi, equ14(temp=temp, rate=rate))
+}

@@ -10,6 +10,7 @@
 #' @return depends on augment: if false, fitting parameters or fitted data
 #' @export
 #'
+#' @examples output <- with(Emiliania_huxleyi, equ14(temp=temp, rate=rate))
 
 equ13 <- function(temp,
                   rate,

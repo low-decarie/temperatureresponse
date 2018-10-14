@@ -11,6 +11,7 @@
 #' @export
 #'
 #'
+#' @examples output <- with(Emiliania_huxleyi, equ5(temp=temp, rate=rate))
 equ5 <- function(temp,rate, augment=F, return_fit=F){
   #Fit the function
   try_test <- try({

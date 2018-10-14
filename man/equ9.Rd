@@ -21,3 +21,6 @@ a data frame of, depending on augment argument, if FALSE, parameters, if TRUE, d
 \description{
 Equation from Montagnes et al. 2008
 }
+\examples{
+output <- with(Emiliania_huxleyi, equ9(temp=temp, rate=rate))
+}
